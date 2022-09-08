@@ -8,3 +8,11 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+main {
+    font-family: 'Comic Neue', cursive;
+    margin: 20%;
+    border: 1px black solid;
+}
+main p {
+    margin: 5%;
+}
