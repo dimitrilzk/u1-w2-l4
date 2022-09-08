@@ -5,9 +5,10 @@ html, body {
 }
 main {
     font-family: 'Comic Neue', cursive;
-    margin: 0;
+    margin-top: 5%;
     background-color: gray;
-    height: 80%;
+    height: 530px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,6 +22,7 @@ main div {
     line-height: 10%;
     border: 1px solid black;
     box-shadow: 2px 2px 2px 0px rgb(0 0 0.5);
+    animation-name: postit;
 }
 div h1 {
     margin-top: 20%;
@@ -66,4 +68,9 @@ div h3 {
 .t8 {
     background-color: #C1DBBE;
     transform: rotate(5deg);
+}
+div:hover {
+    transform: rotate(0deg);
+    transform: scale(1.4,1.4);
+    z-index: 10;
 }
